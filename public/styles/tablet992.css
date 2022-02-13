@@ -1,0 +1,190 @@
+@media (min-width: 992px) and (max-width: 1320px) {
+  .header, .wrap_low_imgs, .setup, .custom,
+  .choose, .team, .partners, .footer, .middle_head {
+    width: 992px;
+  }
+  .middle_head {
+    top: 240px;
+  }
+    .wrap_head {
+      height: 1010px;
+    }
+    .digital {
+      width: 700px;
+    }
+    .wall {
+      transform: translateX(-550px);
+    }
+    .sponsors1 {
+      top: 87px;
+      left: 661px;
+    }
+    .wrap_low_imgs {
+      top: 20px;
+      grid-gap: 52px;
+    }
+    #lines2 {
+      position: relative;
+      left: 210px;
+      top: -292px;
+      width: 106%;
+    }
+    #lines1 {
+      top: 19px;
+      left: 770px;
+      z-index: 1;
+      width: 57%;
+      position: relative;
+    }
+    .wrap_images {
+      position: absolute;
+      left: -201px;
+      top: -29px;
+    }
+    #each_left_img {
+      position: relative;
+      left: -79px;
+    }
+    .wrap_left_imgs {
+      top: -509px;
+    }
+    .wrap_middle_imgs {
+      left: -620px;
+      top: 60px;
+    }
+    #middle_line {
+      top: -262px;
+      left: 298px;
+      display: none;
+    }
+    .wrap_right_imgs {
+      position: relative;
+      left: -252px;
+      top: -97px;
+    }
+    #grid1 {
+    position: relative;
+    top: -459px;
+    left: -266px;
+ }
+ .devices {
+    position: relative;
+    top: -250px;
+ }
+ #iphone1 {
+       width: 44%;
+       top: -7px;
+ }
+ #planch1 {
+   width: 101%;
+   top: -42px;
+ }
+ #mac1 {
+   width: 155%;
+ }
+ .moveLeft1 {
+    transform: translateX(-489px) !important;
+}
+.wrap_custom {
+  top: -1967px;
+}
+ .moveLeft2 {
+     left: 319px !important;
+ }
+ .moveLeft3 {
+    transform: translateX(-198px) !important;
+ }
+  .choose {
+    top: 162px;
+  }
+  #ic3 {
+      left: 594px;
+      top: 101px;
+  }
+  #globus {
+      top: 123px;
+      left: 591px;
+  }
+  #ic6 {
+    left: -594px;
+  }
+  #crypt {
+    position: relative;
+    left: -591px;
+  }
+  #people1 {
+    position: relative;
+    top: -98px;
+    left: 5px;
+  }
+  #ic7 {
+      top: -123px;
+  }
+  .wrap_touch {
+    top: -1700px;
+    overflow: hidden;
+  }
+  .wrap_choose {
+    height: 1331px;
+  }
+  .gun_line {
+    top: -851px;
+    left: -114px;
+  }
+  .inside_partners {
+    width: 992px;
+    top: 7px;
+    grid-gap: 13px 0px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .title_partners {
+    grid-column: 1 / 5;
+  }
+  .team {
+    grid-template-columns: repeat(3, 1fr);
+    height: 670px;
+  }
+  .team1 {
+    grid-column: 1 / 4;
+    top: -90px;
+    position: relative;
+  }
+  .wrap_team {
+    top: -2420px;
+  }
+  .wrap_partners {
+    top: -1850px;
+    background-size: 996px;
+    overflow: hidden;
+  }
+  .third_choose {
+    height: 328px;
+    grid-gap: 4px 0px;
+  }
+  #cryst {
+    position: relative;
+    top: 15px;
+  }
+  .touch {
+    width: 992px;
+    justify-content: center;
+    display: flex;
+  }
+  #fone1 {
+        width: 1305px;
+  }
+  .wrap_footer {
+    top: -1701px;
+  }
+  .up_footer {
+        grid-template-columns: 53% repeat(4, 1fr);
+        grid-gap: 52px;
+  }
+  .middle_footer {
+    grid-template-columns: 27% 63% repeat(3, 3%);
+  }
+  #down_climb {
+    display: none;
+  }
+
+}

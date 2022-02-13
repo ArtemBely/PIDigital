@@ -1,0 +1,49 @@
+@media (min-width: 1320px) and (max-width: 1920px) {
+  #lines1 {
+    top: 265px;
+    left: 858px;
+    z-index: 1;
+    width: 66%;
+  }
+  #lines2 {
+    left: 152px;
+    top: -161px;
+    width: 114%;
+  }
+  .wrap_head {
+    height: 1026px;
+  }
+  .wrap_images {
+    position: absolute;
+    left: -130px;
+    top: -485px;
+  }
+  .wrap_low_imgs {
+        top: 4px;
+        grid-gap: 152px;
+  }
+  .wrap_top_titles {
+        top: 279px;
+  }
+  .sponsors1 {
+    top: -42px;
+  }
+  .setup {
+    top: -73px;
+  }
+  .wrap_custom {
+    top: -2000px;
+  }
+  .wrap_choose {
+        top: -2780px;
+  }
+  .gun_line {
+    top: -1055px;
+  }
+  .wrap_touch {
+    overflow: hidden;
+  }
+  .wrap_site {
+    height: 9012px;
+  }
+}

@@ -1,0 +1,495 @@
+@media (min-width: 576px) and (max-width: 768px) {
+  .header, .wrap_low_imgs, .setup, .custom,
+  .choose, .team, .partners, .footer, .middle_head {
+    width: 576px;
+  }
+  #logo11, #logo22 {
+    width: 170px;
+  }
+  .setup {
+    top: -13px;
+  }
+  #burger_menu {
+    display: grid;
+    width: 20px;
+    height: 22px;
+    grid-column: 6 / 7;
+    position: relative;
+    top: -10px;
+  }
+  #middle_img, .wall {
+    display: none;
+  }
+  #middle_line {
+    display: block;
+  }
+  #anim1 {
+    display: none;
+  }
+  .sponsors1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 261px;
+    position: relative;
+    top: 156px;
+    left: 266px;
+    grid-gap: 0px 8px;
+  }
+  #cryst2 {
+    position: relative;
+    top: 19px;
+  }
+  .each_burger {
+    width: 20px;
+    position: relative;
+    background: white;
+    height: 3px;
+  }
+  #first_b {
+    top: -8px;
+    transition: 0.2s;
+  }
+  #second_b {
+    top: -36px;
+    transition: 0.2s;
+  }
+  .rotate1 {
+    top: -1px !important;
+    transform: rotate(45deg);
+  }
+  .rotate2 {
+    transform: rotate(-45deg);
+  }
+  .wrap_black_links {
+    position: relative;
+    display: grid;
+    height: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    top: -18px;
+    grid-gap: 48px;
+  }
+  .wrap_mobile_menu {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 217px;
+    height: 267px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    z-index: 1000;
+    top: 99px;
+    transition: 0.3s;
+    transform: translateX(-1000px);
+  }
+  .move_mobile1 {
+    transform: translateX(178px) !important;
+    position: fixed;
+    top: 99px;
+  }
+  .each_mobile {
+    text-decoration: none;
+    color: black;
+  }
+  .mobile_menu {
+    width: 150px;
+    display: grid;
+    position: relative;
+    top: 26px;
+  }
+  .header {
+    grid-template-columns: 37% repeat(4, 1fr);
+  }
+  .each_head {
+    display: none;
+  }
+  .middle_head {
+    top: 173px;
+  }
+  .find_more {
+    top: -145px;
+    width: 191px;
+    height: 65px;
+    font-size: 18px;
+
+  }
+  .head_logos {
+        width: 128px;
+  }
+  .wrap_low_imgs {
+      grid-gap: 0px;
+      top: -134px;
+    }
+    .wrap_head {
+      height: 695px;
+    }
+    .digital {
+      width: 700px;
+      font-size: 30px;
+    }
+    .access {
+      font-size: 20px;
+      width: 388px;
+    }
+    .wrap_low_imgs {
+      top: -169px;
+      grid-gap: 24px;
+    }
+    #lines2 {
+      position: relative;
+      left: 223px;
+      top: -291px;
+      width: 90%;
+    }
+    .set_p {
+      font-size: 30px;
+    }
+    .inst_p {
+      font-size: 20px;
+    }
+    #lines1 {
+      top: -110px;
+      left: 516px;
+      z-index: 1;
+      width: 58%;
+      position: relative;
+    }
+    .wrap_images {
+      position: absolute;
+      left: -197px;
+      top: 143px;
+    }
+    #each_left_img {
+      position: relative;
+      left: -79px;
+    }
+    .wrap_left_imgs {
+      top: -617px;
+      transform: rotate(90deg);
+      left: -530px;
+    }
+    .wrap_middle_imgs {
+      left: -620px;
+      top: 60px;
+    }
+    #each_left_img1 {
+      position: relative;
+      top: -110px;
+      width: 157px;
+      left: 155px;
+      transform: rotate(-90deg);
+}
+    #each_left_img2 {
+      top: -314px;
+      width: 157px;
+      left: -9px;
+      transform: rotate(-90deg);
+    }
+    #box1 {
+      width: 217px;
+      position: relative;
+      top: 194px;
+      left: 186px;
+      z-index: 1;
+    }
+    #each_left_img {
+      display: none;
+    }
+    #each_left_img768 {
+      display: grid;
+      position: relative;
+      transform: rotate(-90deg);
+      width: 608px;
+    }
+    #each_left_img3 {
+      top: -523px;
+      left: -168px;
+      width: 157px;
+      transform: rotate(-90deg);
+    }
+    #iphone {
+      top: 869px;
+      left: -386px;
+      z-index: 1;
+      width: 191px;
+      position: relative;
+    }
+    #middle_line {
+      top: 165px;
+      left: 197px;
+      transform: rotate(90deg);
+      width: 200px;
+    }
+    .wrap_right_imgs {
+      position: relative;
+      left: -252px;
+      top: -97px;
+    }
+    #grid1 {
+      display: none;
+ }
+   #grid3 {
+     position: relative;
+     top: 383px;
+     left: -670px;
+     display: block;
+     transform: scale(0.7);
+   }
+ .devices {
+    position: relative;
+    top: -79px;
+    left: -285px;
+ }
+ #iphone1 {
+       width: 33%;
+       top: -7px;
+ }
+ #planch1 {
+   width: 81%;
+   top: -42px;
+ }
+ #mac1 {
+   width: 109%;
+   left: 525px;
+ }
+ .moveLeft1 {
+    transform: translateX(-489px) !important;
+}
+.wrap_custom {
+    top: -403px;
+    background: white;
+}
+#gui {
+  font-size: 30px;
+}
+.each_custom {
+  font-size: 20px;
+}
+ .moveLeft2 {
+     left: 439px !important;
+ }
+ .moveLeft3 {
+    transform: translateX(-127px) !important;
+ }
+  .choose {
+    top: 171px;
+  }
+  #ic3 {
+    left: 199px;
+    top: 266px;
+    width: 217px;
+  }
+  #mount {
+    top: -851px;
+    left: -556px;
+    transform: scale(0.7);
+  }
+  #globus {
+    top: 209px;
+    left: 264px;
+  }
+  #ic6 {
+    left: -67px;
+    top: 55px;
+  }
+  #crypt {
+    position: relative;
+    left: 0px;
+    top: 8px;
+  }
+  #people1 {
+    position: relative;
+    top: -185px;
+    left: -264px;
+  }
+  #ic7 {
+    top: -141px;
+    width: 215px;
+        left: -331px;
+  }
+  .wrap_touch {
+    top: -500px;
+    overflow: hidden;
+    height: 1086px;
+  }
+  .wrap_choose {
+    height: 1736px;
+    top: -1612px;
+  }
+  .why {
+        width: 300px;
+  }
+  .why, .in_touch {
+    font-size: 30px;
+  }
+  .the_best {
+    font-size: 20px;
+    width: 392px;
+    top: -27px;
+  }
+  .gun_line {
+    top: -311px;
+    left: -280px;
+  }
+  #gun {
+        transform: scale(0.8);
+  }
+  .inside_partners {
+    width: 576px;
+    top: 34px;
+    grid-gap: 0px 0px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .form_get {
+    height: 648px;
+    top: -178px;
+    width: 576px;
+  }
+  .reserved, .privacy {
+    font-size: 16px;
+  }
+  #service {
+    top: -5px;
+  }
+  #foot_logo {
+        width: 170px;
+  }
+  .foot_links {
+    display: none;
+  }
+  .wrap_inp {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 18px 60px;
+    top: -2px;
+  }
+  #coop {
+    top: 17px;
+  }
+  .white_fone {
+        height: 215px;
+  }
+  .msg {
+    width: 438px;
+  }
+  .title_partners {
+    grid-column: 1 / 4;
+    font-size: 30px;
+    top: 5px;
+  }
+  .form_inputs {
+    width: 200px;
+  }
+  .low_partner {
+    width: 155px;
+    height: 64px;
+  }
+  .each_img_part {
+    width: 150px;
+  }
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+    height: 584px;
+    grid-gap: 0px 105px;
+  }
+  .team1 {
+    grid-column: 1 / 3;
+    top: -38px;
+    font-size: 30px;
+    position: relative;
+  }
+  .team_photos {
+    width: 234px;
+    position: relative;
+    top: 4px;
+  }
+  .wrap_team {
+    top: -1325px;
+  }
+  .partners {
+    position: relative;
+    top: 28px;
+  }
+  .wrap_partners {
+    top: -500px;
+    background-size: 593px;
+}
+  .third_choose {
+    height: 328px;
+    grid-gap: 100px 0px;
+    left: -1655px;
+    top: 15px;
+  }
+  #cryst {
+    position: relative;
+    top: 15px;
+  }
+  .second_choose {
+    grid-gap: 100px 0px;
+    top: 15px;
+  }
+  .each_choose {
+    top: 41px;
+    left: -65px;
+  }
+  .each_choose2 {
+    top: 41px;
+    left: -65px;
+  }
+  .touch {
+    width: 992px;
+    justify-content: center;
+    display: flex;
+  }
+  #analys {
+    position: relative;
+    top: -13px;
+  }
+  #fone1 {
+        width: 1305px;
+  }
+  .wrap_footer {
+    top: -518px;
+    height: 179px;
+  }
+  .socials {
+    margin-left: 22px;
+    height: 30px;
+    top: 16px;
+  }
+  .up_footer {
+    grid-template-columns: 47% repeat(4, 1fr);
+    grid-gap: 37px;
+  }
+  #by_click {
+    width: 292px;
+    left: 142px;
+    top: -68px;
+    font-size: 15px;
+  }
+  .sub_but {
+    height: 54px;
+  }
+  .middle_footer {
+          grid-template-columns: 40% 45% repeat(3, 4%);
+          top: 75px;
+  }
+  #msg {
+        width: 438px;
+  }
+  #down_climb {
+    display: none;
+  }
+  #in {
+    position: relative;
+    top: 17px;
+  }
+  #foot_logo {
+    position: relative;
+    width: 170px;
+    top: -15px;
+  }
+  .foot_link {
+    width: 18px;
+  }
+}
