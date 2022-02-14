@@ -99,32 +99,34 @@
   position: absolute;
 }
 #iphone1 {
-  left: 1044px;
-  top: 30px;
+  left: 1269px;
+  top: 55px;
   z-index: 3;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
 }
 .moveLeft1 {
-  -webkit-transform: translateX(-217px) !important;
-      -ms-transform: translateX(-217px) !important;
-          transform: translateX(-217px) !important;
+  -webkit-transform: translateX(-394px) !important;
+      -ms-transform: translateX(-394px) !important;
+          transform: translateX(-394px) !important;
 }
 #planch1 {
-  top: -84px;
-  left: 620px;
+  top: -23px;
+  left: 820px;
+  width: 1100px;
   z-index: 2;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
 }
 .moveLeft2 {
-  left: 431px !important;
+  left: 594px !important;
 }
 #mac1 {
-  top: -39px;
-  left: 401px;
+  top: 11px;
+  left: 734px;
+  width: 1490px;
   z-index: 1;
   -webkit-transition: 1s;
   -o-transition: 1s;
@@ -132,9 +134,9 @@
   cursor: pointer;
 }
 .moveLeft3 {
-  -webkit-transform: translateX(-93px) !important;
-      -ms-transform: translateX(-93px) !important;
-          transform: translateX(-93px) !important;
+  -webkit-transform: translateX(-211px) !important;
+      -ms-transform: translateX(-211px) !important;
+          transform: translateX(-211px) !important;
 }
 #logo22 {
   display: none;
@@ -183,7 +185,7 @@
 }
 
 .wrap_site_privacy {
-      height: 1600px;
+      height: 5940px;
       background-color: #F4F7F9;
 }
 .wrap_header_privacy {
@@ -195,7 +197,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: absolute;
+  position: absolute;top: 0px;
   background: #0F1128;
 }
 .wrap_footer_privacy {
@@ -209,7 +211,7 @@
           justify-content: center;
   background: #0F1128;
   position: relative;
-  top: 1292px;
+  top: 355px;
   overflow: hidden;
 }
 .fake_sponsor {
@@ -230,4 +232,38 @@
 }
 .sponsors2 {
   width: 119px;
+}
+
+
+.wrap_privacy_content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+.privacy_content {
+  display: -ms-grid;
+  display: grid;
+  width: 1290px;
+  position: relative;
+  top: 177px;
+}
+.title_priv {
+  font-family: 'Inter-SemiBold';
+  font-size: 20px;
+}
+.tit_centr {
+  text-align: center;
+}
+.each_p {
+  font-size: 20px;
+  margin-bottom: 0px;
+  line-height: 30px;
+}
+.char {
+  padding-left: 32px;
 }

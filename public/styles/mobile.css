@@ -1,7 +1,10 @@
 @media (min-width: 320px) and (max-width: 576px) {
   .header, .wrap_low_imgs, .setup, .custom,
-  .choose, .team, .partners, .footer, .middle_head {
+  .choose, .team, .partners, .footer, .middle_head, .privacy_content, .each_p {
     width: 320px;
+  }
+    .char {
+      padding-left: 14px;
   }
   .wrap_mobile_menu {
     display: -webkit-box;
@@ -74,6 +77,10 @@
     grid-template-columns: repeat(3, 1fr);
     top: -18px;
     grid-gap: 48px;
+  }
+  .wrap_site_privacy {
+        height: 15030px;
+        overflow: hidden;
   }
   .move_mobile1 {
     -webkit-transform: translateX(51px) !important;
@@ -314,11 +321,12 @@
  #mac1 {
    width: 121%;
    left: 525px;
+   top: -45px;
  }
  .moveLeft1 {
-    -webkit-transform: translateX(-551px) !important;
-        -ms-transform: translateX(-551px) !important;
-            transform: translateX(-551px) !important;
+    -webkit-transform: translateX(-774px) !important;
+        -ms-transform: translateX(-774px) !important;
+            transform: translateX(-774px) !important;
 }
 .wrap_custom {
     top: -583px;
@@ -335,9 +343,9 @@
      left: 420px !important;
  }
  .moveLeft3 {
-    -webkit-transform: translateX(-127px) !important;
-        -ms-transform: translateX(-127px) !important;
-            transform: translateX(-127px) !important;
+    -webkit-transform: translateX(-130px) !important;
+        -ms-transform: translateX(-130px) !important;
+            transform: translateX(-130px) !important;
  }
   .choose {
     top: 121px;

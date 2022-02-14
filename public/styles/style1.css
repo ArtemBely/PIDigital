@@ -68,8 +68,8 @@ body{
   stroke-width: 1px;
 }
 .squiggle2_anim {
-  -webkit-animation: draw 10s linear forwards 2s;
-          animation: draw 10s linear forwards 2s;
+  -webkit-animation: draw 20s linear forwards 2s;
+          animation: draw 20s linear forwards 2s;
 }
 @-webkit-keyframes draw {
   from {

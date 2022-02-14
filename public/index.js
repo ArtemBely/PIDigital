@@ -1,3 +1,6 @@
+window.onload = function() {
+  document.title = "PI Digital AG";
+}
 var check1 = document.getElementById('check1');
 check1.addEventListener('click', () => {
    check1.classList.toggle('fillBack');

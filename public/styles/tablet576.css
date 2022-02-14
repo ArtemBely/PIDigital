@@ -1,6 +1,6 @@
 @media (min-width: 576px) and (max-width: 768px) {
   .header, .wrap_low_imgs, .setup, .custom,
-  .choose, .team, .partners, .footer, .middle_head {
+  .choose, .team, .partners, .footer, .middle_head, .privacy_content {
     width: 576px;
   }
   #logo11, #logo22 {
@@ -8,6 +8,15 @@
   }
   .setup {
     top: -13px;
+  }
+  .each_p, .title_priv {
+    font-size: 18px;
+  }
+  .wrap_site_privacy {
+    height: 8629px;
+  }
+  .title_priv, .each_p {
+    font-size: 18px;
   }
   #burger_menu {
     display: -ms-grid;
@@ -292,11 +301,12 @@
 #mac1 {
   width: 109%;
   left: 525px;
+  top: -47px;
 }
 .moveLeft1 {
-   -webkit-transform: translateX(-489px) !important;
-       -ms-transform: translateX(-489px) !important;
-           transform: translateX(-489px) !important;
+   -webkit-transform: translateX(-722px) !important;
+       -ms-transform: translateX(-722px) !important;
+           transform: translateX(-722px) !important;
 }
 .wrap_custom {
    top: -403px;

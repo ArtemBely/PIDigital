@@ -1,6 +1,6 @@
 @media (min-width: 992px) and (max-width: 1320px) {
   .header, .wrap_low_imgs, .setup, .custom,
-  .choose, .team, .partners, .footer, .middle_head {
+  .choose, .team, .partners, .footer, .middle_head, .privacy_content {
     width: 992px;
   }
   .middle_head {
@@ -11,6 +11,9 @@
     }
     .digital {
       width: 700px;
+    }
+    .wrap_site_privacy {
+          height: 6725px;
     }
     .wall {
       -webkit-transform: translateX(-550px);
@@ -83,11 +86,12 @@
  }
  #mac1 {
    width: 155%;
+   top: -66px;
  }
  .moveLeft1 {
-    -webkit-transform: translateX(-489px) !important;
-        -ms-transform: translateX(-489px) !important;
-            transform: translateX(-489px) !important;
+    -webkit-transform: translateX(-689px) !important;
+        -ms-transform: translateX(-689px) !important;
+            transform: translateX(-689px) !important;
 }
 .wrap_custom {
   top: -1967px;
@@ -96,9 +100,9 @@
      left: 319px !important;
  }
  .moveLeft3 {
-    -webkit-transform: translateX(-198px) !important;
-        -ms-transform: translateX(-198px) !important;
-            transform: translateX(-198px) !important;
+    -webkit-transform: translateX(-533px) !important;
+        -ms-transform: translateX(-533px) !important;
+            transform: translateX(-533px) !important;
  }
   .choose {
     top: 162px;

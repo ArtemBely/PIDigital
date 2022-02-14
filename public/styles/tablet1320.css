@@ -13,6 +13,9 @@
   .wrap_head {
     height: 1026px;
   }
+  .wrap_site_privacy {
+    height: 5980px;
+  }
   .wrap_images {
     position: absolute;
     left: -130px;
@@ -44,6 +47,6 @@
     overflow: hidden;
   }
   .wrap_site {
-    height: 9012px;
+    height: 8812px;
   }
 }

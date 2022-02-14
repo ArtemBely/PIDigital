@@ -38,3 +38,19 @@ window.addEventListener('scroll', () => {
     wall.classList.add('wall_animation');
   }
 });
+
+var lines = document.getElementById('lines1');
+var num = 99;
+
+function secvention() {
+  num++;
+  var source = `./public/images/lines/Lines${num}.png`;
+  lines.src = source;
+  if(num < 152) {
+    requestAnimationFrame(secvention);
+  }
+}
+
+window.addEventListener('load', () => {
+  secvention();
+});

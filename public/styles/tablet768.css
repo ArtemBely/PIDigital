@@ -1,7 +1,10 @@
 @media (min-width: 768px) and (max-width: 992px) {
   .header, .wrap_low_imgs, .setup, .custom,
-  .choose, .team, .partners, .footer, .middle_head {
+  .choose, .team, .partners, .footer, .middle_head, .privacy_content {
     width: 768px;
+  }
+  .wrap_site_privacy {
+    height: 7110px;
   }
   .header {
     -ms-grid-columns: 37% (1fr)[4];
@@ -16,6 +19,9 @@
   .sponsors1 {
     top: 195px;
     left: 303px;
+  }
+  .title_priv, .each_p {
+    font-size: 18px;
   }
   .wrap_low_imgs {
       grid-gap: 28px;
@@ -163,8 +169,8 @@
    }
  .devices {
     position: relative;
-    top: -102px;
-    left: -285px;
+    top: -126px;
+    left: -195px;
  }
  .wrap_top_titles {
        top: 253px;
@@ -178,12 +184,13 @@
    top: -42px;
  }
  #mac1 {
-   width: 155%;
+   width: 135%;
+   top: -8px;
  }
  .moveLeft1 {
-    -webkit-transform: translateX(-489px) !important;
-        -ms-transform: translateX(-489px) !important;
-            transform: translateX(-489px) !important;
+    -webkit-transform: translateX(-759px) !important;
+        -ms-transform: translateX(-759px) !important;
+            transform: translateX(-759px) !important;
 }
 .wrap_custom {
     top: -316px;
@@ -199,9 +206,9 @@
      left: 319px !important;
  }
  .moveLeft3 {
-    -webkit-transform: translateX(-198px) !important;
-        -ms-transform: translateX(-198px) !important;
-            transform: translateX(-198px) !important;
+    -webkit-transform: translateX(-477px) !important;
+        -ms-transform: translateX(-477px) !important;
+            transform: translateX(-477px) !important;
  }
   .choose {
     top: 162px;
