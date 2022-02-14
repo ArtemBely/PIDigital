@@ -13,7 +13,9 @@
       width: 700px;
     }
     .wall {
-      transform: translateX(-550px);
+      -webkit-transform: translateX(-550px);
+          -ms-transform: translateX(-550px);
+              transform: translateX(-550px);
     }
     .sponsors1 {
       top: 87px;
@@ -83,7 +85,9 @@
    width: 155%;
  }
  .moveLeft1 {
-    transform: translateX(-489px) !important;
+    -webkit-transform: translateX(-489px) !important;
+        -ms-transform: translateX(-489px) !important;
+            transform: translateX(-489px) !important;
 }
 .wrap_custom {
   top: -1967px;
@@ -92,7 +96,9 @@
      left: 319px !important;
  }
  .moveLeft3 {
-    transform: translateX(-198px) !important;
+    -webkit-transform: translateX(-198px) !important;
+        -ms-transform: translateX(-198px) !important;
+            transform: translateX(-198px) !important;
  }
   .choose {
     top: 162px;
@@ -135,16 +141,22 @@
     width: 992px;
     top: 7px;
     grid-gap: 13px 0px;
+    -ms-grid-columns: 1fr 0px 1fr 0px 1fr 0px 1fr;
     grid-template-columns: repeat(4, 1fr);
   }
   .title_partners {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
     grid-column: 1 / 5;
   }
   .team {
+    -ms-grid-columns: (1fr)[3];
     grid-template-columns: repeat(3, 1fr);
     height: 670px;
   }
   .team1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
     grid-column: 1 / 4;
     top: -90px;
     position: relative;
@@ -167,7 +179,11 @@
   }
   .touch {
     width: 992px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   #fone1 {
@@ -177,14 +193,15 @@
     top: -1701px;
   }
   .up_footer {
+        -ms-grid-columns: 53% 52px 1fr 52px 1fr 52px 1fr 52px 1fr;
         grid-template-columns: 53% repeat(4, 1fr);
         grid-gap: 52px;
   }
   .middle_footer {
+    -ms-grid-columns: 27% 63% (3%)[3];
     grid-template-columns: 27% 63% repeat(3, 3%);
   }
   #down_climb {
     display: none;
   }
-
 }

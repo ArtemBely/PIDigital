@@ -4,6 +4,7 @@
     width: 768px;
   }
   .header {
+    -ms-grid-columns: 37% (1fr)[4];
     grid-template-columns: 37% repeat(4, 1fr);
   }
   .setup {
@@ -74,7 +75,9 @@
     }
     .wrap_left_imgs {
       top: -727px;
-      transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+              transform: rotate(90deg);
       left: -715px;
     }
     .wrap_middle_imgs {
@@ -85,12 +88,16 @@
       position: relative;
       top: -186px;
       left: 222px;
-      transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
 }
     #each_left_img2 {
       top: -461px;
       left: -9px;
-      transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
     }
     #box1 {
       width: 312px;
@@ -103,15 +110,20 @@
       display: none;
     }
     #each_left_img768 {
+      display: -ms-grid;
       display: grid;
       position: relative;
-      transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
       width: 891px;
     }
     #each_left_img3 {
       top: -740px;
       left: -232px;
-      transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
     }
     #iphone {
       top: 1170px;
@@ -123,7 +135,9 @@
     #middle_line {
       top: 273px;
       left: -14px;
-      transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+              transform: rotate(90deg);
     }
     .wrap_right_imgs {
       position: relative;
@@ -137,7 +151,9 @@
     position: relative;
     top: 281px;
     left: -11px;
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
  }
    #grid3 {
      position: relative;
@@ -165,7 +181,9 @@
    width: 155%;
  }
  .moveLeft1 {
-    transform: translateX(-489px) !important;
+    -webkit-transform: translateX(-489px) !important;
+        -ms-transform: translateX(-489px) !important;
+            transform: translateX(-489px) !important;
 }
 .wrap_custom {
     top: -316px;
@@ -181,7 +199,9 @@
      left: 319px !important;
  }
  .moveLeft3 {
-    transform: translateX(-198px) !important;
+    -webkit-transform: translateX(-198px) !important;
+        -ms-transform: translateX(-198px) !important;
+            transform: translateX(-198px) !important;
  }
   .choose {
     top: 162px;
@@ -236,6 +256,7 @@
     width: 768px;
     top: 7px;
     grid-gap: 0px 0px;
+    -ms-grid-columns: 1fr 0px 1fr 0px 1fr;
     grid-template-columns: repeat(3, 1fr);
   }
   .form_get {
@@ -243,15 +264,20 @@
     top: -100px;
   }
   .title_partners {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
     grid-column: 1 / 4;
     font-size: 40px;
   }
   .team {
+    -ms-grid-columns: 1fr 68px 1fr 68px 1fr;
     grid-template-columns: repeat(3, 1fr);
     height: 551px;
     grid-gap: 0px 68px;
   }
   .team1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
     grid-column: 1 / 4;
     top: -38px;
     font-size: 40px;
@@ -295,7 +321,11 @@
   }
   .touch {
     width: 992px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   #fone1 {
@@ -310,10 +340,12 @@
     top: 16px;
   }
   .up_footer {
+    -ms-grid-columns: 47% 37px 1fr 37px 1fr 37px 1fr 37px 1fr;
     grid-template-columns: 47% repeat(4, 1fr);
     grid-gap: 37px;
   }
   .middle_footer {
+        -ms-grid-columns: 35% 51% (4%)[3];
         grid-template-columns: 35% 51% repeat(3, 4%);
   }
   #down_climb {
