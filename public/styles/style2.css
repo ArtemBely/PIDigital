@@ -333,6 +333,17 @@ fill:inherit;
   -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
 }
+
+.in_touch_submitted {
+  top: -31px !important;
+}
+.form_get_submitted {
+  height: 279px;
+}
+.wrap_inp_submitted, .wrap_down_inp_submitted {
+  display: none;
+}
+
 .in_touch {
   font-size: 50px;
   font-family: 'ManiaExtendedC';

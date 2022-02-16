@@ -21,8 +21,22 @@
               transform: translateX(-550px);
     }
     .sponsors1 {
-      top: 87px;
+      top: 108px;
       left: 661px;
+      grid-gap: 0px 11px;
+    }
+    #coop1 {
+      left: -17px;
+      position: relative;
+    }
+    #cryst2 {
+      left: -37px;
+    }
+    .sponsors2 {
+      width: 104px;
+    }
+    .each_choose2 {
+      width: 350px;
     }
     .wrap_low_imgs {
       top: 20px;
@@ -89,9 +103,9 @@
    top: -66px;
  }
  .moveLeft1 {
-    -webkit-transform: translateX(-689px) !important;
-        -ms-transform: translateX(-689px) !important;
-            transform: translateX(-689px) !important;
+    -webkit-transform: translateX(-1189px) !important;
+        -ms-transform: translateX(-1189px) !important;
+            transform: translateX(-1189px) !important;
 }
 .wrap_custom {
   top: -1967px;
@@ -100,19 +114,19 @@
      left: 319px !important;
  }
  .moveLeft3 {
-    -webkit-transform: translateX(-533px) !important;
-        -ms-transform: translateX(-533px) !important;
-            transform: translateX(-533px) !important;
+    -webkit-transform: translateX(-1033px) !important;
+        -ms-transform: translateX(-1033px) !important;
+            transform: translateX(-1033px) !important;
  }
   .choose {
     top: 162px;
   }
   #ic3 {
       left: 594px;
-      top: 101px;
+      top: 131px;
   }
   #globus {
-      top: 123px;
+      top: 153px;
       left: 591px;
   }
   #ic6 {

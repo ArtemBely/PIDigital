@@ -68,8 +68,8 @@ body{
   stroke-width: 1px;
 }
 .squiggle2_anim {
-  -webkit-animation: draw 20s linear forwards 2s;
-          animation: draw 20s linear forwards 2s;
+  -webkit-animation: draw 1s linear forwards 2s;
+          animation: draw 1s linear forwards 2s;
 }
 @-webkit-keyframes draw {
   from {
@@ -90,7 +90,7 @@ body{
 #middle_img {
   position: relative;
   top: -261px;
-  left: 375px;
+  left: 335px;
 }
 .wall {
   position: relative;
@@ -269,7 +269,7 @@ body{
   grid-column: 1 / 2;
   position: relative;
   top: -97px;
-  z-index: 999;
+  z-index: 1;
   text-decoration: none;
 }
 .middle_head {

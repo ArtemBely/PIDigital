@@ -51,7 +51,7 @@
   }
   #cryst2 {
     position: relative;
-    top: 19px;
+    top: 9px;
   }
   .each_burger {
     width: 20px;
@@ -304,9 +304,9 @@
   top: -47px;
 }
 .moveLeft1 {
-   -webkit-transform: translateX(-722px) !important;
-       -ms-transform: translateX(-722px) !important;
-           transform: translateX(-722px) !important;
+   -webkit-transform: translateX(-1222px) !important;
+       -ms-transform: translateX(-1222px) !important;
+           transform: translateX(-1222px) !important;
 }
 .wrap_custom {
    top: -403px;

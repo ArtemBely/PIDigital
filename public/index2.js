@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+	var inTouch = document.getElementById('inTouch');
 	//E-mail Ajax Send
 	$("#order_our1").submit(function() { //Change
     swal({
@@ -15,12 +15,15 @@ $(document).ready(function() {
       console.log('done');
 			setTimeout(function() {
 				// Done Functions
+
 				th.trigger("reset");
 			}, 1000);
 		});
+
 		return false;
 	});
 });
+
 
 var box = document.getElementById('box1');
 var squiggle = document.querySelectorAll('.squiggle');

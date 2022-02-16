@@ -99,44 +99,50 @@
   position: absolute;
 }
 #iphone1 {
-  left: 1269px;
+  left: 1769px;
   top: 55px;
   z-index: 3;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
+  opacity: 0;
 }
 .moveLeft1 {
-  -webkit-transform: translateX(-394px) !important;
-      -ms-transform: translateX(-394px) !important;
-          transform: translateX(-394px) !important;
+  -webkit-transform: translateX(-894px) !important;
+      -ms-transform: translateX(-894px) !important;
+          transform: translateX(-894px) !important;
+          opacity: 1 !important;
 }
 #planch1 {
   top: -23px;
-  left: 820px;
+  left: 1320px;
   width: 1100px;
   z-index: 2;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
+  opacity: 0;
 }
 .moveLeft2 {
   left: 594px !important;
+  opacity: 1 !important;
 }
 #mac1 {
   top: 11px;
-  left: 734px;
+  left: 1234px;
   width: 1490px;
   z-index: 1;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
   cursor: pointer;
+  opacity: 0;
 }
 .moveLeft3 {
-  -webkit-transform: translateX(-211px) !important;
-      -ms-transform: translateX(-211px) !important;
-          transform: translateX(-211px) !important;
+  -webkit-transform: translateX(-711px) !important;
+      -ms-transform: translateX(-711px) !important;
+          transform: translateX(-711px) !important;
+          opacity: 1 !important;
 }
 #logo22 {
   display: none;
@@ -228,7 +234,7 @@
   position: relative;
   top: -51px;
   left: 67px;
-  grid-gap: 0px 11px;
+  grid-gap: 0px 24px;
 }
 .sponsors2 {
   width: 119px;
@@ -266,4 +272,22 @@
 }
 .char {
   padding-left: 32px;
+}
+#one, #two, #three, #four {
+  position: relative;
+  top: -150px;
+}
+#cryst2 {
+  position: relative;
+  top: 12px;
+}
+#fire1 {
+  position: relative;
+  top: 16px;
+}
+#sub_request {
+  display: none;
+  font-size: 20px;
+  line-height: 160%;
+  color: white;
 }

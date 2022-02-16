@@ -188,9 +188,9 @@
    top: -8px;
  }
  .moveLeft1 {
-    -webkit-transform: translateX(-759px) !important;
-        -ms-transform: translateX(-759px) !important;
-            transform: translateX(-759px) !important;
+    -webkit-transform: translateX(-1259px) !important;
+        -ms-transform: translateX(-1259px) !important;
+            transform: translateX(-1259px) !important;
 }
 .wrap_custom {
     top: -316px;
@@ -206,9 +206,9 @@
      left: 319px !important;
  }
  .moveLeft3 {
-    -webkit-transform: translateX(-477px) !important;
-        -ms-transform: translateX(-477px) !important;
-            transform: translateX(-477px) !important;
+    -webkit-transform: translateX(-977px) !important;
+        -ms-transform: translateX(-977px) !important;
+            transform: translateX(-977px) !important;
  }
   .choose {
     top: 162px;

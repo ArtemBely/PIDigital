@@ -40,7 +40,7 @@
   }
   #cryst2 {
     position: relative;
-    top: 17px;
+    top: 11px;
   }
   #anim1, #middle_img {
     display: none;
@@ -324,9 +324,9 @@
    top: -45px;
  }
  .moveLeft1 {
-    -webkit-transform: translateX(-774px) !important;
-        -ms-transform: translateX(-774px) !important;
-            transform: translateX(-774px) !important;
+    -webkit-transform: translateX(-1310px) !important;
+        -ms-transform: translateX(-1310px) !important;
+            transform: translateX(-1310px) !important;
 }
 .wrap_custom {
     top: -583px;
@@ -340,7 +340,7 @@
   line-height: 25px;
 }
  .moveLeft2 {
-     left: 420px !important;
+     left: 400px !important;
  }
  .moveLeft3 {
     -webkit-transform: translateX(-130px) !important;
