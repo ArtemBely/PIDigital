@@ -338,10 +338,10 @@ fill:inherit;
   top: -31px !important;
 }
 .form_get_submitted {
-  height: 279px;
+  height: 279px !important;
 }
 .wrap_inp_submitted, .wrap_down_inp_submitted {
-  display: none;
+  display: none !important;
 }
 
 .in_touch {

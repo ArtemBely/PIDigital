@@ -2,6 +2,11 @@ $(document).ready(function() {
 	var inTouch = document.getElementById('inTouch');
 	//E-mail Ajax Send
 	$("#order_our1").submit(function() { //Change
+		$("#order_our1").addClass("form_get_submitted");
+		$("#inTouch").addClass("in_touch_submitted");
+		$(".wrap_down_inp").addClass("wrap_inp_submitted");
+		$(".wrap_inp").addClass("wrap_inp_submitted");
+		$("#sub_request").addClass("show_sub_request");
     swal({
     text: "Message was sent. Our team will contact you soon.",
     button: "OK"

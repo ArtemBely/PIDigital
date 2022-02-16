@@ -332,6 +332,24 @@
     top: -583px;
     background: white;
 }
+.show_sub_request {
+    display: block !important;
+    font-size: 14px;
+    line-height: 160%;
+    color: white;
+    position: absolute;
+    top: 112px;
+    left: 68px;
+}
+.form_get_submitted {
+    height: 181px !important;
+}
+.in_touch_submitted {
+    top: 4px !important;
+}
+.in_touch {
+  width: 200px;
+}
 #gui {
   font-size: 23px;
 }

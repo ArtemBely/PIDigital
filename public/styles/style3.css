@@ -288,3 +288,12 @@
 #sub_request {
   display: none;
 }
+.show_sub_request {
+  display: block !important;
+  font-size: 20px;
+  line-height: 160%;
+  color: white;
+  position: absolute;
+  top: 163px;
+  left: 68px;
+}
