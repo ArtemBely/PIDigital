@@ -22,7 +22,7 @@
     }
     .sponsors1 {
       top: 108px;
-      left: 661px;
+      left: 654px;
       grid-gap: 0px 11px;
     }
     #coop1 {
@@ -122,7 +122,7 @@
     top: 162px;
   }
   #ic3 {
-      left: 594px;
+      left: 587px;
       top: 131px;
   }
   #globus {
@@ -130,7 +130,7 @@
       left: 591px;
   }
   #ic6 {
-    left: -594px;
+    left: -587px;
   }
   #crypt {
     position: relative;
@@ -143,6 +143,7 @@
   }
   #ic7 {
       top: -123px;
+      width: 352px;
   }
   .wrap_touch {
     top: -1700px;

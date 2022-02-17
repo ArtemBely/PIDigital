@@ -158,6 +158,12 @@
 .changeColor {
   color: black;
 }
+.changeBackColor {
+  background: black !important;
+}
+.blackTopBurger {
+  top: 0px !important;
+}
 .wrap_header {
   width: 100%;
   height: 119px;
@@ -296,4 +302,22 @@
   position: absolute;
   top: 163px;
   left: 68px;
+}
+#ic1 {
+    width: 180px;
+}
+#ic2 {
+    width: 221px;
+}
+#ic4 {
+    width: 272px;
+}
+#ic5 {
+    width: 176px;
+}
+#ic6 {
+    width: 200px;
+}
+#ic7 {
+    width: 464px;
 }

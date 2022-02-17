@@ -47,13 +47,19 @@ planch1.addEventListener('transitionend', () => {
 var di_detector = document.getElementById('di_detector');
 var logo11 = document.getElementById('logo11');
 var logo22 = document.getElementById('logo22');
+var burger_menu = document.getElementById('burger_menu');
 var eachHeader = document.querySelectorAll('.each_head');
 var moveHeader = document.getElementById('moveHeader');
+var each_burger = document.querySelectorAll('.each_burger');
 
 window.addEventListener('scroll', () => {
   if(di_detector.getBoundingClientRect().top < 0) {
     logo11.classList.add('closeHeader2');
     logo22.classList.add('changeHeader');
+    burger_menu.classList.add('blackTopBurger');
+    each_burger.forEach(item => {
+      item.classList.add('changeBackColor')
+    });
     let i;
     for(i=0; i<eachHeader.length; i++) {
       eachHeader[i].classList.add('changeColor');
@@ -63,6 +69,10 @@ window.addEventListener('scroll', () => {
   else {
     logo11.classList.remove('closeHeader2');
     logo22.classList.remove('changeHeader');
+    burger_menu.classList.remove('blackTopBurger');
+    each_burger.forEach(item => {
+      item.classList.remove('changeBackColor')
+    });
     let i;
     for(i=0; i<eachHeader.length; i++) {
       eachHeader[i].classList.remove('changeColor');

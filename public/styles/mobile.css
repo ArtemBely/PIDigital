@@ -140,7 +140,7 @@
     top: 173px;
   }
   .find_more {
-    top: -208px;
+    top: -187px;
     width: 191px;
     height: 65px;
     font-size: 18px;
@@ -387,7 +387,7 @@
     left: -2px;
   }
   #ic6 {
-    left: -67px;
+    left: -41px;
     top: 67px;
   }
   #crypt {
@@ -403,7 +403,7 @@
   #ic7 {
     top: 78px;
     width: 234px;
-    left: -66px;
+    left: -42px;
   }
   .wrap_touch {
     top: -1200px;
@@ -606,8 +606,12 @@
   }
   .each_choose2 {
     top: 41px;
-    left: -65px;
+    left: -39px;
     font-size: 18px;
+  }
+  #money {
+    position: relative;
+    left: 4px;
   }
   .touch {
     width: 992px;
