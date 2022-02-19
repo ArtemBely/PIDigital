@@ -366,7 +366,7 @@
             transform: translateX(-130px) !important;
  }
   .choose {
-    top: 121px;
+    top: 91px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -406,7 +406,7 @@
     left: -42px;
   }
   .wrap_touch {
-    top: -1200px;
+    top: -1700px;
     overflow: hidden;
     height: 1315px;
   }
@@ -467,7 +467,7 @@
     top: 37px;
   }
   .wrap_site {
-        height: 7945px;
+        height: 5945px;
   }
   .left_inp {
     width: 250px;
@@ -561,7 +561,7 @@
     top: 8px;
   }
   .wrap_team {
-    top: -1706px;
+    top: -1790px;
   }
   .weight_name {
     font-size: 18px;
@@ -577,7 +577,7 @@
     top: 28px;
   }
   .wrap_partners {
-    top: -1400px;
+    top: -1515px;
     background-size: 330px;
     overflow: hidden;
 }
@@ -633,7 +633,7 @@
         width: 1305px;
   }
   .wrap_footer {
-    top: -1218px;
+    top: -1718px;
     height: 282px;
   }
   .first_link {
