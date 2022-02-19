@@ -11,9 +11,7 @@
   height: 1400px;
   overflow: hidden;
 }
-.choose {
-  width: 1290px;
-}
+
 .why {
   color: white;
   font-family: 'ManiaExtendedC';
@@ -59,7 +57,8 @@
 }
 .choose {
   position: relative;
-  top: 266px;
+  top: 276px;
+  width: 1290px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -151,7 +150,7 @@ fill:inherit;
           justify-content: center;
   height: 100vh;
   position: relative;
-  top: -2450px;
+  top: -2504px;
 }
 .team {
   width: 1290px;
@@ -245,7 +244,7 @@ fill:inherit;
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  top: -2249px;
+  top: -2255px;
   background-image: url('../images/Vector — копия 6.svg');
   background-repeat: no-repeat;
   background-position: center;
