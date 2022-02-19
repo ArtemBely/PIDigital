@@ -224,6 +224,10 @@ body{
   text-decoration: none;
   color: white;
 }
+.find_more:hover {
+  background: #ffffff;
+  color: black;
+}
 .access {
   font-size: 30px;
   line-height: 170%;

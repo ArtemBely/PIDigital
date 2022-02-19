@@ -59,7 +59,7 @@
 }
 .choose {
   position: relative;
-  top: 320px;
+  top: 266px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -151,7 +151,7 @@ fill:inherit;
           justify-content: center;
   height: 100vh;
   position: relative;
-  top: -2477px;
+  top: -2450px;
 }
 .team {
   width: 1290px;
@@ -245,7 +245,7 @@ fill:inherit;
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  top: -2296px;
+  top: -2249px;
   background-image: url('../images/Vector — копия 6.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -292,7 +292,7 @@ fill:inherit;
 }
 .wrap_touch {
   position: relative;
-  top: -2170px;
+  top: -2095px;
   height: 1398px;
   width: 100%;
   -webkit-transition: 1.3s;
