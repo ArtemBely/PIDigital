@@ -18,7 +18,11 @@
   }
   .sponsors1 {
     top: 195px;
-    left: 303px;
+    left: 294px;
+  }
+  #analys {
+    left: -11px;
+    position: relative;
   }
   #money {
     position: relative;
@@ -219,12 +223,12 @@
     top: 162px;
   }
   #ic3 {
-    left: 236px;
+    left: 227px;
     top: 311px;
   }
   #globus {
-    top: 260px;
-    left: 300px;
+    top: 266px;
+    left: 286px;
   }
   #ic6 {
     left: -366px;
@@ -238,7 +242,7 @@
   #people1 {
     position: relative;
     top: -185px;
-    left: 3px;
+    left: -8px;
   }
   #ic7 {
     top: -141px;
@@ -357,14 +361,14 @@
     grid-gap: 37px;
   }
   .middle_footer {
-        -ms-grid-columns: 35% 51% (4%)[3];
-        grid-template-columns: 35% 51% repeat(3, 4%);
+    -ms-grid-columns: 35% 55% (4%)[2];
+        grid-template-columns: 35% 55% repeat(2, 4%);
   }
   #down_climb {
     display: none;
   }
   #in {
     position: relative;
-    top: 17px;
+    top: 0px;
   }
 }

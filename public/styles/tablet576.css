@@ -51,7 +51,7 @@
   }
   #cryst2 {
     position: relative;
-    top: 9px;
+    top: 2px;
   }
   .each_burger {
     width: 20px;
@@ -280,6 +280,7 @@
     position: relative;
     top: 383px;
     left: -670px;
+    opacity: 0;
     display: block;
     -webkit-transform: scale(0.7);
         -ms-transform: scale(0.7);
@@ -342,7 +343,7 @@
            transform: scale(0.7);
  }
  #globus {
-   top: 209px;
+   top: 217px;
    left: 264px;
  }
  #ic6 {
@@ -546,8 +547,8 @@
    height: 54px;
  }
  .middle_footer {
-         -ms-grid-columns: 40% 45% (4%)[3];
-         grid-template-columns: 40% 45% repeat(3, 4%);
+     -ms-grid-columns: 40% 49% (4%)[2];
+         grid-template-columns: 40% 49% repeat(2, 4%);
          top: 75px;
  }
  #msg {
@@ -558,7 +559,7 @@
  }
  #in {
    position: relative;
-   top: 17px;
+   top: 0px;
  }
  #foot_logo {
    position: relative;
@@ -567,5 +568,15 @@
  }
  .foot_link {
    width: 18px;
+ }
+ #grid5 {
+   position: absolute;
+   left: -752px;
+   width: 1349px;
+   top: 848px;
+   display: block !important;
+   -webkit-transform: rotate(-13deg);
+       -ms-transform: rotate(-13deg);
+           transform: rotate(-13deg);
  }
 }

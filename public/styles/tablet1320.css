@@ -1,3 +1,13 @@
+@media (min-width: 1320px) {
+  #crypt {
+    position: relative;
+    left: 3px;
+  }
+  #people1 {
+    left: 4px;
+    position: relative;
+  }
+}
 @media (min-width: 1320px) and (max-width: 1920px) {
   #lines1 {
     top: 265px;

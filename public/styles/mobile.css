@@ -40,7 +40,7 @@
   }
   #cryst2 {
     position: relative;
-    top: 11px;
+    top: 3px;
   }
   #anim1, #middle_img {
     display: none;
@@ -298,6 +298,7 @@
  }
    #grid3 {
      position: relative;
+     opacity: 0;
      top: 365px;
      left: -700px;
      display: block;
@@ -317,6 +318,9 @@
  #planch1 {
    width: 92%;
    top: -57px;
+   -webkit-transform: scale(1.4);
+       -ms-transform: scale(1.4);
+           transform: scale(1.4);
  }
  #mac1 {
    width: 121%;
@@ -324,9 +328,9 @@
    top: -45px;
  }
  .moveLeft1 {
-    -webkit-transform: translateX(-1310px) !important;
-        -ms-transform: translateX(-1310px) !important;
-            transform: translateX(-1310px) !important;
+   -webkit-transform: translateX(-1310px) scale(1.4) !important;
+              -ms-transform: translateX(-1310px) scale(1.4) !important;
+                  transform: translateX(-1310px) scale(1.4) !important;
 }
 .wrap_custom {
     top: -583px;
@@ -361,9 +365,9 @@
      left: 400px !important;
  }
  .moveLeft3 {
-    -webkit-transform: translateX(-130px) !important;
-        -ms-transform: translateX(-130px) !important;
-            transform: translateX(-130px) !important;
+    -webkit-transform: translateX(-130px) scale(1.4) !important;
+        -ms-transform: translateX(-130px) scale(1.4) !important;
+            transform: translateX(-130px) scale(1.4) !important;
  }
   .choose {
     top: 91px;
@@ -383,8 +387,8 @@
             transform: scale(0.5);
   }
   #globus {
-    top: 771px;
-    left: -2px;
+    top: 776px;
+    left: -6px;
   }
   #ic6 {
     left: -41px;
@@ -406,7 +410,7 @@
     left: -42px;
   }
   .wrap_touch {
-    top: -1700px;
+    top: -1580px;
     overflow: hidden;
     height: 1315px;
   }
@@ -467,7 +471,7 @@
     top: 37px;
   }
   .wrap_site {
-        height: 5945px;
+        height: 6945px;
   }
   .left_inp {
     width: 250px;
@@ -677,8 +681,8 @@
     font-size: 18px;
   }
   .middle_footer {
-    -ms-grid-columns: 70% (1fr)[3];
-    grid-template-columns: 70% repeat(3, 1fr);
+    -ms-grid-columns: 81% (1fr)[2];
+    grid-template-columns: 81% repeat(2, 1fr);
     top: 173px;
     -ms-grid-rows: (1fr)[2];
     grid-template-rows: repeat(2, 1fr);
@@ -756,5 +760,12 @@
     position: relative;
     top: 82px;
     left: -369px;
+  }
+  #grid5 {
+    position: absolute;
+    left: -626px;
+    width: 650px;
+    top: 889px;
+    display: block !important;
   }
 }

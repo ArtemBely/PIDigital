@@ -30,7 +30,11 @@
       position: relative;
     }
     #cryst2 {
-      left: -37px;
+      left: 0px;
+    }
+    #new2 {
+      top: 12px;
+      left: -19px;
     }
     .sponsors2 {
       width: 104px;
@@ -127,7 +131,7 @@
   }
   #globus {
       top: 153px;
-      left: 591px;
+      left: 596px;
   }
   #ic6 {
     left: -587px;
@@ -217,8 +221,8 @@
         grid-gap: 52px;
   }
   .middle_footer {
-    -ms-grid-columns: 27% 63% (3%)[3];
-    grid-template-columns: 27% 63% repeat(3, 3%);
+    -ms-grid-columns: 27% 66% (3%)[2];
+        grid-template-columns: 27% 66% repeat(2, 3%);
   }
   #down_climb {
     display: none;

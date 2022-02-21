@@ -29,6 +29,17 @@
   position: relative;
   left: -9px;
 }
+.foot_links:hover {
+  color: #4fa0ff;
+}
+.privacy {
+  width: 150px;
+  position: relative;
+  z-index: 1;
+}
+.privacy:hover #priv_link {
+  color: #4fa0ff;
+}
 .up_footer {
     position: relative;
     display: -ms-grid;
@@ -49,20 +60,23 @@
   top: 108px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 21% 70% (3%)[3];
-  grid-template-columns: 21% 70% repeat(3, 3%);
+  -ms-grid-columns: 21% 73% (3%)[2];
+  grid-template-columns: 21% 73% repeat(2, 3%);
 }
 .socials {
   margin-left: 13px;
   height: 30px;
+  position: relative;
+  top: 14px;
 }
 .first_link {
   position: relative;
-  right: 41px;
+  right: 15px;
 }
 .second_link {
   position: relative;
   right: 21px;
+  display: none;
 }
 .fillGet {
   top: 120px !important;
@@ -234,13 +248,17 @@
 .sponsors1 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 11px 1fr 11px 1fr;
-  grid-template-columns: repeat(3, 1fr);
-  width: 390px;
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+  width: 323px;
   position: relative;
   top: -51px;
   left: 67px;
   grid-gap: 0px 24px;
+}
+#new2 {
+  position: relative;
+  top: 16px;
 }
 .sponsors2 {
   width: 119px;
@@ -285,7 +303,7 @@
 }
 #cryst2 {
   position: relative;
-  top: 12px;
+  top: 0px;
 }
 #fire1 {
   position: relative;
@@ -320,4 +338,7 @@
 }
 #ic7 {
     width: 464px;
+}
+#grid5 {
+    display: none;
 }

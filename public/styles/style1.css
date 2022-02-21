@@ -197,6 +197,9 @@ body{
   cursor: pointer;
   text-decoration: none;
 }
+.each_head:hover {
+  color: #4fa0ff;
+}
 #each_left_img768, #grid3 {
   display: none;
 }
@@ -226,7 +229,7 @@ body{
 }
 .find_more:hover {
   background: #ffffff;
-  color: black;
+  color: #4fa0ff;
 }
 .access {
   font-size: 30px;

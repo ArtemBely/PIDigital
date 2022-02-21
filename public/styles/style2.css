@@ -452,6 +452,10 @@ fill:inherit;
   position: relative;
   top: 4px;
 }
+.sub_but:hover {
+  background: white;
+  color: #4fa0ff;
+}
 .wrap_inp {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
