@@ -467,7 +467,7 @@ body{
 .wrap_custom {
   position: relative;
   width: 100%;
-  top: -1760px;
+  top: -1830px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -482,7 +482,7 @@ body{
 }
 #mount {
   position: relative;
-  top: -830px;
+  top: -758px;
   left: -304px;
 }
 .wrap_low_imgs {
