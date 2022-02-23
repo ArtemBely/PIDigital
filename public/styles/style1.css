@@ -346,7 +346,7 @@ body{
 .setup {
   width: 1290px;
   position: relative;
-  top: 165px;
+  top: 138px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -467,7 +467,7 @@ body{
 .wrap_custom {
   position: relative;
   width: 100%;
-  top: -1830px;
+  top: -1800px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
