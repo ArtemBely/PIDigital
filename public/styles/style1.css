@@ -346,7 +346,7 @@ body{
 .setup {
   width: 1290px;
   position: relative;
-  top: 138px;
+  top: 128px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
