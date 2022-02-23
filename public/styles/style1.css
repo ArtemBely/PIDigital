@@ -346,7 +346,7 @@ body{
 .setup {
   width: 1290px;
   position: relative;
-  top: 95px;
+  top: 165px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -467,7 +467,7 @@ body{
 .wrap_custom {
   position: relative;
   width: 100%;
-  top: -1830px;
+  top: -1760px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -482,7 +482,7 @@ body{
 }
 #mount {
   position: relative;
-  top: -768px;
+  top: -830px;
   left: -304px;
 }
 .wrap_low_imgs {
