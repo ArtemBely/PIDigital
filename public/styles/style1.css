@@ -211,6 +211,22 @@ body{
   z-index: 1;
   position: relative;
 }
+@-moz-document url-prefix() {
+  #box1 {
+    top: -1350px !important;
+  }
+  #middle_img {
+    top: -1610px !important;
+  }
+  .wrap_left_imgs {
+    top: -1752px !important;
+  }
+  .wrap_site {
+    height: 8900px !important;
+    overflow: hidden;
+  }
+}
+
 #partners1 {
   position: relative;
   left: -9px;
@@ -315,7 +331,7 @@ body{
   -ms-grid-row: 3;
   -ms-grid-column: 2;
 }
-#lines1 {
+#lines1, .lines123 {
   position: relative;
   top: -141px;
   left: 1484px;
