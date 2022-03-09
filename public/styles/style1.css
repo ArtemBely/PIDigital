@@ -150,6 +150,27 @@ body{
   height: 8212px;
   background-color: #F4F7F9;
 }
+.fx_prime {
+      top: 21px !important;
+      width: 202px;
+      left: 11px;
+}
+.vqf {
+    left: 48px !important;
+}
+.bdo {
+    width: 158px;
+    left: 32px !important;
+    top: -2px !important;
+}
+#cryst {
+  top: 13px !important;
+  left: 33px !important;
+}
+.moreleil {
+  width: 235px;
+  top: 10px !important;
+}
 .header {
   width: 1290px;
   height: 119px;

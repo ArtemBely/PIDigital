@@ -505,11 +505,34 @@
     width: 300px;
   }
   #coop {
-    top: -11px;
+    top: -14px;
+    left: 9px !important;
   }
+  .invemo {
+    top: 22px !important;
+    left: 10px !important;
+  }
+  .moreleil {
+    width: 235px;
+    top: 35px !important;
+    left: 12px !important;
+}
   .white_fone {
         height: 215px;
   }
+  .fx_prime {
+    top: 10px !important;
+    left: 1px !important;
+}
+  .bdo {
+    width: 90px !important;
+    left: 5px !important;
+    top: 5px !important;
+}
+  .vqf {
+    left: 38px !important;
+    width: 95px !important;
+}
   .msg {
     width: 250px;
     left: -74px;
@@ -521,6 +544,7 @@
     grid-column: 1 / 3;
     font-size: 23px;
     top: 5px;
+    left: -9px;
   }
   .form_inputs {
     width: 250px;
@@ -593,7 +617,8 @@
   }
   #cryst {
     position: relative;
-    top: -4px;
+    top: -6px !important;
+    left: 10px !important;
   }
   #plus {
     top: 7px;

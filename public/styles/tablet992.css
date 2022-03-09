@@ -9,6 +9,9 @@
     .wrap_head {
       height: 1010px;
     }
+    .fx_prime {
+      top: 10px !important;
+}
     .digital {
       width: 700px;
     }
@@ -198,8 +201,15 @@
   }
   #cryst {
     position: relative;
-    top: 15px;
+    top: -6px !important;
+    left: 19px !important;
+    width: 201px;
   }
+  .moreleil {
+    width: 206px;
+    top: 12px !important;
+    left: 24px !important;
+}
   .touch {
     width: 992px;
     -webkit-box-pack: center;

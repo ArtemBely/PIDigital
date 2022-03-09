@@ -322,7 +322,27 @@
   }
   #cryst {
     position: relative;
-    top: 15px;
+    top: 9px !important;
+    left: 12px !important;
+    width: 195px;
+  }
+  .moreleil {
+    width: 204px;
+    top: 14px !important;
+    left: 22px;
+}
+  .vqf {
+        top: 7px !important;
+  }
+  .invemo {
+    position: relative;
+    top: 30px !important;
+    left: 5px !important;
+  }
+  .bdo {
+    width: 137px;
+    left: 48px !important;
+    top: 15px !important;
   }
   .second_choose {
     grid-gap: 100px 0px;
