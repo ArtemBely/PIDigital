@@ -6,6 +6,13 @@
   .wrap_site_privacy {
     height: 7110px;
   }
+  .each_img_part {
+    width: 160px !important;
+  }
+  #kraken {
+    position: relative;
+    top: 143px;
+  }
   .header {
     -ms-grid-columns: 37% (1fr)[4];
     grid-template-columns: 37% repeat(4, 1fr);
@@ -322,27 +329,32 @@
   }
   #cryst {
     position: relative;
-    top: 9px !important;
-    left: 12px !important;
+    top: -9px !important;
+    left: 1px !important;
     width: 195px;
   }
   .moreleil {
     width: 204px;
-    top: 14px !important;
+    top: -12px !important;
     left: 22px;
 }
   .vqf {
-        top: 7px !important;
+        top: -28px !important;
   }
   .invemo {
     position: relative;
-    top: 30px !important;
+    top: -27px !important;
     left: 5px !important;
+  }
+  .fx_prime {
+    top: -5px !important;
+    width: 186px;
+    left: 5px;
   }
   .bdo {
     width: 137px;
     left: 48px !important;
-    top: 15px !important;
+    top: -7px !important;
   }
   .second_choose {
     grid-gap: 100px 0px;

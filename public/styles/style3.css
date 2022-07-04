@@ -12,6 +12,17 @@
   top: -2295px;
   overflow: hidden;
 }
+#link_vqf, #link_bdo {
+  display: none;
+}
+#link_sumsub {
+  grid-row: 3 / 4;
+  grid-column: 4 / 5;
+  margin-top: 19px;
+}
+#fxprime {
+  grid-column: 1 / 2;
+}
 .footer {
   width: 1290px;
 }

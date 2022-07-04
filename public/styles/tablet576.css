@@ -18,7 +18,7 @@
   .vqf {
     left: 35px !important;
     width: 94px !important;
-    top: 9px !important;
+    top: -17px !important;
 }
   .title_priv, .each_p {
     font-size: 18px;
@@ -458,7 +458,7 @@
    height: 64px;
  }
  .each_img_part {
-   width: 150px;
+    width: 125px !important;
  }
  .team {
    -ms-grid-columns: 1fr 105px 1fr;
@@ -502,26 +502,30 @@
   left: 2px !important;
  }
  .invemo {
-    left: 6px !important;
-    top: 60px !important;
+   left: 6px !important;
+   top: -2px !important;
+   width: 125px !important;
+ }
+ #kraken {
+   top: 130px;
  }
  #coop {
-    top: 3px;
-    left: 4px !important;
+   top: -14px;
+   left: 4px !important;
 }
 .moreleil {
-    top: 36px !important;
-    left: 8px !important;
+  top: 11px !important;
+  left: 13px !important;
 }
 .fx_prime {
-    top: 41px !important;
-    width: 155px !important;
-    left: 0px;
+  top: 16px !important;
+  width: 125px !important;
+  left: 2px;
 }
 .bdo {
-    width: 111px !important;
-    left: 30px !important;
-    top: 36px !important;
+  width: 95px !important;
+  left: 30px !important;
+  top: 14px !important;
 }
  .second_choose {
    grid-gap: 100px 0px;

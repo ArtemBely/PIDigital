@@ -276,6 +276,7 @@ fill:inherit;
 }
 .inside_partners {
   height: 306px;
+  grid-gap: 0px 57px;
   width: 1290px;
   display: -ms-grid;
   display: grid;

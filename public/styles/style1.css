@@ -52,6 +52,16 @@ body{
   stroke: url(#gradient);
   stroke-width: 1px;
 }
+.partner_links {
+  position: relative;
+  z-index: 100;
+}
+.down_links {
+  top: 27px !important;
+}
+.down_img {
+
+}
 .privacy > a{
   text-decoration: none;
   color: white;
@@ -151,25 +161,31 @@ body{
   background-color: #F4F7F9;
 }
 .fx_prime {
-      top: 21px !important;
-      width: 202px;
-      left: 11px;
+  top: 10px !important;
+  width: 186px;
+  left: 12px;
 }
 .vqf {
     left: 48px !important;
 }
 .bdo {
-    width: 158px;
-    left: 32px !important;
-    top: -2px !important;
+      width: 136px;
+      left: 32px !important;
+      top: -1px !important;
 }
 #cryst {
   top: 13px !important;
   left: 33px !important;
 }
+.invemo {
+    width: 207px !important;
+    top: -18px !important;
+    left: 18px !important;
+}
 .moreleil {
-  width: 235px;
-  top: 10px !important;
+  width: 217px;
+  top: 1px !important;
+  left: 6px !important;;
 }
 .header {
   width: 1290px;

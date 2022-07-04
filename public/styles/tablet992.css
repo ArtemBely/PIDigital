@@ -11,6 +11,7 @@
     }
     .fx_prime {
       top: 10px !important;
+      left: -1px;
 }
     .digital {
       width: 700px;
@@ -201,14 +202,21 @@
   }
   #cryst {
     position: relative;
-    top: -6px !important;
+    top: 23px !important;
     left: 19px !important;
     width: 201px;
   }
   .moreleil {
     width: 206px;
-    top: 12px !important;
+    top: 0px !important;
     left: 24px !important;
+}
+.invemo {
+  top: -21px !important;
+  left: 27px !important;
+}
+#link_sumsub {
+      margin-top: 0px;
 }
   .touch {
     width: 992px;
