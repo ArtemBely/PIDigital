@@ -687,13 +687,11 @@
 
   .wrap_footer {
     top: -500px;
-    height: 550px;
   }
 
   .socials {
     margin-left: 22px;
     height: 30px;
-    top: 16px;
   }
 
   .up_footer {
@@ -762,7 +760,7 @@
     padding: 48px 38px;
   }
 
-  /* .footer {
+  .footer {
     flex-direction: row-reverse;
   }
 
@@ -773,5 +771,5 @@
 
   .footer__info {
     margin-left: 0;
-  } */
+  }
 }

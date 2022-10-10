@@ -40,6 +40,14 @@
   justify-content: flex-start;
 }
 
+.mfooter__header {
+  display: none;
+}
+
+.mfooter__footer {
+  display: none;
+}
+
 .footer__common {
   flex: 1;
 }
