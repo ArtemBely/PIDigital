@@ -13,6 +13,10 @@
     width: 576px;
   }
 
+  .footer__info {
+    margin-left: 60px;
+  }
+
   #logo11,
   #logo22 {
     width: 170px;
@@ -747,4 +751,27 @@
     -ms-transform: rotate(-13deg);
     transform: rotate(-13deg);
   }
+}
+
+@media (max-width: 576px) {
+  .footer__common {
+    display: none;
+  }
+
+  .wrap_footer {
+    padding: 48px 38px;
+  }
+
+  /* .footer {
+    flex-direction: row-reverse;
+  }
+
+  .footer__docs,
+  .footer__info {
+    flex: 1;
+  }
+
+  .footer__info {
+    margin-left: 0;
+  } */
 }
