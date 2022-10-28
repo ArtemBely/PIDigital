@@ -533,6 +533,9 @@ body{
   width: 1290px;
   position: relative;
 }
+.fb_link {
+  display: none;
+}
 #mount {
   position: relative;
   top: -758px;
